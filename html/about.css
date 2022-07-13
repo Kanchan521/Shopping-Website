@@ -1,0 +1,58 @@
+
+
+
+.column {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 26px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin: 15px;
+  }
+  .lead{
+    text-align: justify!important;
+    padding: 2px 6px !important;
+   
+  }
+  
+  .container {
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  .container-body{
+    position: relative;
+    top:10px;
+  }
+   .firstHeading{
+        text-align: center;
+        
+    }
+   
+  .social{
+      font-size: 40px;
+      padding: 0ps 5px;
+      font-family: sans-serif;
+  }
+  .social a:hover{
+      color: #7e9344;
+      padding: 5px;
+  }
+  .center{
+  text-align: center;
+  background-color: black;
+  color: white;
+  }
+  
